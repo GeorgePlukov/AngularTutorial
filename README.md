@@ -18,4 +18,8 @@ into your command prompt to make sure npm installed properly. The typical respon
 If you installed Node and the console response is ``command not found`` from the npm command try closing and reopening your console and trying again.
 
 ####Installing Yo
-npm install -g yo bower grunt-cli gulp
+Yoemann is a project generator for many different types of web-apps. In this tutorial we will be using the angular generator. To install yo run
+
+``npm install -g yo bower grunt-cli gulp``
+
+
