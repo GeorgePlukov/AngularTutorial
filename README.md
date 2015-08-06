@@ -33,3 +33,13 @@ Using the Yo angular generator is extremely easy. To begin run
 
 This starts the generator in the current working directory. If a project was generated in a parent directory make sure that there is no .yo-rc.json file, if there is one all new files will be generated relative to this.
 
+Now there are some options the angular generator that are up to personal preference. 
+
+1. Sass or css
+  * In this tutorial we will say yes to sass but will mostly be using basic css concepts.
+2. Bootstrap
+  * Bootstrap can be your best friend in terms of styling, especially for quick projects. Yes!
+3. Sass Bootstrap? 
+  * This doesnt really matter unless you are planning on using it, I say no.
+
+
