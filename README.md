@@ -29,7 +29,7 @@ To install the angular generator for Yo simply run this command
 ##Generating our first project
 Using the Yo angular generator is extremely easy. To begin run 
 
-``yo angular`
+``yo angular``
 
 This starts the generator in the current working directory. If a project was generated in a parent directory make sure that there is no .yo-rc.json file, if there is one all new files will be generated relative to this.
 
@@ -40,6 +40,6 @@ Now there are some options the angular generator that are up to personal prefere
 2. Bootstrap
   * Bootstrap can be your best friend in terms of styling, especially for quick projects. Yes!
 3. Sass Bootstrap? 
-  * This doesnt really matter unless you are planning on using it, I say no.
+  * This doesnt really matter unless you are planning on using it, I say Yes. Sometimes if you say no bootstrap wont work immediatley after generation.
 
-
+There is a few more options after selecting the guidlines for the generated project. There is a list of 6 options, I leave them all in the default setting except for angular-cookies and angular-resource which I disable. To disable them navigate using the arrow keys and then press space.
