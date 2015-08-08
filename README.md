@@ -29,7 +29,7 @@ To install the angular generator for Yo simply run this command
 ##Generating our first project
 Using the Yo angular generator is extremely easy. To begin run 
 
-``yo angular`
+``yo angular``
 
 This starts the generator in the current working directory. If a project was generated in a parent directory make sure that there is no .yo-rc.json file, if there is one all new files will be generated relative to this.
 
