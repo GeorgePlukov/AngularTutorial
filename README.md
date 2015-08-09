@@ -33,6 +33,7 @@ Using the Yo angular generator is extremely easy. To begin run
 
 This starts the generator in the current working directory. If a project was generated in a parent directory make sure that there is no .yo-rc.json file, if there is one all new files will be generated relative to this.
 
+####Customizing Your project
 Now there are some options the angular generator that are up to personal preference. 
 
 1. Sass or css
@@ -43,3 +44,17 @@ Now there are some options the angular generator that are up to personal prefere
   * This doesnt really matter unless you are planning on using it, I say Yes. Sometimes if you say no bootstrap wont work immediatley after generation.
 
 There is a few more options after selecting the guidlines for the generated project. There is a list of 6 options, I leave them all in the default setting except for angular-cookies and angular-resource which I disable. To disable them navigate using the arrow keys and then press space.
+
+####Running your projects
+Now that the project has been generated you should be able to start the server by running the command
+
+``grunt serve`` or ``sudo grunt serve``
+
+This command opens the current version of the project in your default browser. 
+
+####Customizing your project
+Now that you know how to run the project editing the files and making the site your own is easy. All of the files are in the app folder of the project. Check out some of the examples I've made for how different Angular functions work.
+
+
+
+
