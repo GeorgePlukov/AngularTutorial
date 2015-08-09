@@ -9,9 +9,8 @@
  */
 angular.module('modelsApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  	console.log('Main Controller');
+
+  	$scope.data = 'Our data';
+
   });

@@ -17,15 +17,17 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      // Define one possible url of our app
+      // This app will only have one page so we will 
+      // only need one state
+      .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
+      // This sets the default path to direct to
+      // Currently it is set to the default url of /main 
+      // which is defined above.
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/main'
       });
   });
