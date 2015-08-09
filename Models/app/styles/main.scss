@@ -2,4 +2,24 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+.index-container {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    // center div
+    margin: 0 auto;
+    background-color: lightgrey;
+    height: 50%;
+    width: 400px;
+}
