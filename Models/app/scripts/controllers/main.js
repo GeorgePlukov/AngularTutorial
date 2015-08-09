@@ -11,6 +11,6 @@ angular.module('modelsApp')
   .controller('MainCtrl', function ($scope) {
   	console.log('Main Controller');
 
-  	$scope.data = 'Our data';
+  	$scope.data = '';
 
   });

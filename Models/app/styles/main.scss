@@ -20,6 +20,17 @@ body {
     // center div
     margin: 0 auto;
     background-color: lightgrey;
-    height: 50%;
-    width: 400px;
+    height: 400px;
+    width: 50%;
+}
+
+.data-entry {
+    margin-top: 100px;
+    margin-left: 0 auto;
+    width: 100%;
+}
+
+.data-text {
+    text-align: center;
+    margin-top: 30px;
 }
