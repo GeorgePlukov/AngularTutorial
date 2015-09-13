@@ -1,0 +1,2 @@
+##Controllers
+A controller contains the business logic for one view in your web application. It should be as basic as possible, and should not try and act as the model for your data. This means that some other device should be used to make requests to actially store your data (factories, we will learn about these after). 

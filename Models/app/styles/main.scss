@@ -20,8 +20,11 @@ body {
     // center div
     margin: 0 auto;
     background-color: lightgrey;
-    height: 400px;
+    position: absolute;
+    height: 50%;
     width: 50%;
+    top: 25%;
+    left: 25%;
 }
 
 .data-entry {
@@ -33,4 +36,6 @@ body {
 .data-text {
     text-align: center;
     margin-top: 30px;
+    width: 100%;
+    overflow-wrap: break-word;
 }
